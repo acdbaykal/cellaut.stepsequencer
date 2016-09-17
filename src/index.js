@@ -1,4 +1,4 @@
-import StepSequencerRender from "StepSequencerRender";
+import StepSequencerRender from "./StepSequencerRender";
 
 export {
   StepSequencerRender

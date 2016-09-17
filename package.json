@@ -1,10 +1,10 @@
 {
   "name": "cellaut.stepsequencer",
-  "version": "0.0.0",
-  "description": "audio renderer for the cellaut project. It's inpired by stepsquencers and implemented through the web audio api.",
+  "version": "0.0.1",
+  "description": "an audio renderer for the cellaut project. It's inpired by stepsquencers and implemented through the web audio api.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test:js"
   },
   "repository": {
     "type": "git",
@@ -38,9 +38,10 @@
     "gulp-mocha": "^3.0.1",
     "gulp-print": "^2.0.1",
     "gulp-util": "^3.0.7",
-    "jsdom": "^9.5.0"
+    "web-audio-test-api": "^0.5.2"
   },
   "dependencies": {
-    "cellaut": "git+https://github.com/acdbaykal/cellaut.git"
+    "cellaut": "git+https://github.com/acdbaykal/cellaut.git",
+    "octavian": "^2.2.0"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "name": "cellaut.stepsequencer",
+  "version": "0.0.0",
+  "description": "audio renderer for the cellaut project. It's inpired by stepsquencers and implemented through the web audio api.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acdbaykal/cellaut.stepsequencer.git"
+  },
+  "keywords": [
+    "cellular",
+    "automata",
+    "step",
+    "sequencer",
+    "web",
+    "audio",
+    "api"
+  ],
+  "author": "ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acdbaykal/cellaut.stepsequencer/issues"
+  },
+  "homepage": "https://github.com/acdbaykal/cellaut.stepsequencer#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-root-import": "^4.1.1",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "eslint": "^3.5.0",
+    "eslint-plugin-mocha": "^4.5.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-print": "^2.0.1",
+    "gulp-util": "^3.0.7",
+    "jsdom": "^9.5.0"
+  },
+  "dependencies": {
+    "cellaut": "git+https://github.com/acdbaykal/cellaut.git"
+  }
+}

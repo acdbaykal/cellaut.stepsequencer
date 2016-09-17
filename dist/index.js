@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.StepSequencerRender = undefined;
 
-var _StepSequencerRender = require("StepSequencerRender");
+var _StepSequencerRender = require("./StepSequencerRender");
 
 var _StepSequencerRender2 = _interopRequireDefault(_StepSequencerRender);
 
